@@ -1,0 +1,18 @@
+C:\Users\simon\Documents\Magic\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\simon\Documents\Magic\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\simon\Documents\Magic\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\simon\Documents\Magic\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\simon\Documents\Magic\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\simon\Documents\Magic\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\simon\Documents\Magic\obj\Debug\Assembly-CSharp.dll
+C:\Users\simon\Documents\Magic\obj\Debug\Assembly-CSharp.pdb
+C:\Users\simon\Documents\Magic\obj\Debug\UnityVS.Magic.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\simon\Google Drive\unity\Magic\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\simon\Google Drive\unity\Magic\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\simon\Google Drive\unity\Magic\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\simon\Google Drive\unity\Magic\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\simon\Google Drive\unity\Magic\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\simon\Google Drive\unity\Magic\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\simon\Google Drive\unity\Magic\obj\Debug\UnityVS.Magic.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\simon\Google Drive\unity\Magic\obj\Debug\Assembly-CSharp.dll
+C:\Users\simon\Google Drive\unity\Magic\obj\Debug\Assembly-CSharp.pdb
