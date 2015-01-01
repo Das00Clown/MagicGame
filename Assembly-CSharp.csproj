@@ -48,9 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\scripts\CameraControll.cs" />
      <Compile Include="Assets\scripts\CharacterController.cs" />
-     <Compile Include="Assets\scripts\HeadControll.cs" />
      <Compile Include="Assets\scripts\HumanoidController.cs" />
-     <Compile Include="Assets\scripts\SpineController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

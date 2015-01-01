@@ -1,17 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/CameraControll.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/HumanoidController.cs">
     <Files>
+      <File FileName="Assets/scripts/HumanoidController.cs" Line="18" Column="27" />
       <File FileName="Assets/scripts/CharacterController.cs" Line="8" Column="60" />
-      <File FileName="Assets/scripts/CameraControll.cs" Line="9" Column="2" />
+      <File FileName="Assets/scripts/CameraControll.cs" Line="9" Column="155" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
+        <State expanded="True" selected="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="scripts" expanded="True">
-              <Node name="CameraControll.cs" selected="True" />
-            </Node>
+            <Node name="scripts" expanded="True" />
           </Node>
         </State>
       </Pad>

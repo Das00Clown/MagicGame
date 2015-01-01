@@ -40,10 +40,8 @@
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
-'Assets/CameraControll.cs'
+'Assets/scripts/CameraControll.cs'
 'Assets/scripts/CharacterController.cs'
-'Assets/scripts/HeadControll.cs'
 'Assets/scripts/HumanoidController.cs'
-'Assets/scripts/SpineController.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
