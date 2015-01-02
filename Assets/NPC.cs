@@ -11,6 +11,7 @@ public class NPC : MonoBehaviour {
 
 
     void Update() {
+        //hier ki update:D
         System.Random rnd = new System.Random();
         humanoidController.Look(new Vector3(0, (float)(2 * rnd.NextDouble() -1), 0));
         humanoidController.walk = System.Convert.ToBoolean( rnd.Next(0, 1));
