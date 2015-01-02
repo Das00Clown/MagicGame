@@ -48,6 +48,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\NPC.cs" />
     <Compile Include="Assets\Xsens\MVN Sample Pack\Script\PlayerControl.cs" />
     <Compile Include="Assets\scripts\CameraControll.cs" />
     <Compile Include="Assets\scripts\CharacterController.cs" />
