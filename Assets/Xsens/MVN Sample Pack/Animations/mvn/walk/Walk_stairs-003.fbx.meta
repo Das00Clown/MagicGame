@@ -55,6 +55,7 @@ ModelImporter:
     400048: //RootNode
     7400000: Walk_stairs-003
     7400002: Run_Turn
+    7400004: Walk_stairs-0030
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -75,14 +76,14 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk_stairs-003
       takeName: Walk_stairs-003
-      firstFrame: -1
-      lastFrame: 706
+      firstFrame: 36
+      lastFrame: 636
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -151,8 +152,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Run_Turn
       takeName: Walk_stairs-003
-      firstFrame: 131
-      lastFrame: 154
+      firstFrame: 526
+      lastFrame: 547
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

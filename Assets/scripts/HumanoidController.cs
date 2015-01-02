@@ -3,30 +3,22 @@ using System.Collections;
 using System;
 
 public class HumanoidController : MonoBehaviour {
-    public float maxturn = 45;
+    public Transform headBone;
+    Animator anim;
+    public bool walk;
+    public bool sprint;
 
-    public Vector3 headEuler = Vector3.zero;
+    public float minimum = 0F;
+    public float maximum = 0F;
 
-    public GameObject head;
-
-    public bool turn = false;
+    void Start() {
+        anim = transform.GetComponent<Animator>();
+    }
 
     public void Look(Vector3 MoveMent) {
-		float newY = transform.eulerAngles.y + MoveMent.y;
-        if (newY > maxturn && newY < 360f - maxturn) {
-
-        } else {
-            headEuler = new Vector3(transform.eulerAngles.x, newY, 0);
-        }
-        turn = transform.eulerAngles.y == 0;
+        maximum = MoveMent.y;
+        anim.SetFloat("Direction", Mathf.Lerp(minimum, maximum, Time.time * 0.1f));
+        anim.SetBool("Moving", walk);
+        anim.SetBool("Sprint", sprint);
     }
 }
-
-        //float newY = head.transform.eulerAngles.y + MoveMent.y;
-        //if (newY > maxturn && newY < 360f - maxturn) {
-        //    newY = spine.transform.eulerAngles.y + MoveMent.y;
-        //    if (!(newY > maxturn && newY < 360f - maxturn))
-        //        spine.transform.rotation = Quaternion.Euler(spine.transform.eulerAngles.x, newY, spine.transform.eulerAngles.z);
-        //} else {
-        //    head.transform.rotation = Quaternion.Euler(head.transform.eulerAngles.x, newY, head.transform.eulerAngles.z);
-        //}

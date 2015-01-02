@@ -8,12 +8,10 @@ public class CameraControll : MonoBehaviour {
         playerController = player.GetComponent<HumanoidController>();
     }
     void Update() {
-        transform.rotation = Quaternion.Euler(playerController.headEuler.x, playerController.head.transform.eulerAngles.y, 0);
-        transform.position = new Vector3(player.transform.position.x, playerController.head.transform.position.y, player.transform.position.z);
-        //transform.position = new Vector3 (Middle (leftEye.transform.position.x,rightEye.transform.position.x),leftEye.transform.position.y,leftEye.transform.position.z);
-        //transform.rotation = new Quaternion(leftEye.transform.rotation.x,leftEye.transform.rotation.y,leftEye.transform.rotation.z,leftEye.transform.rotation.w);
+        camera.transform.position = playerController.headBone.position;
+        camera.transform.rotation = Quaternion.Euler(player.transform.rotation.eulerAngles.x, player.transform.rotation.eulerAngles.y, 0);
 	}
-	float Middle(float f1, float f2) {
-		return f2 + ((f1 + f2 )/2);
-	}
+    float Middle(float a, float b) {
+        return b + ((a + b) / 2);
+    }
 }
