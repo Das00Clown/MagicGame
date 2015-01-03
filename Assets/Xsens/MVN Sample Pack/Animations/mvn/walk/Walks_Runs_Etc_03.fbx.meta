@@ -151,15 +151,15 @@ ModelImporter:
     - serializedVersion: 16
       name: Stand_Jump
       takeName: Walks_Runs_Etc_03
-      firstFrame: 714
-      lastFrame: 768
+      firstFrame: 729
+      lastFrame: 763
       wrapMode: 0
       orientationOffsetY: 13.4099998
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 0

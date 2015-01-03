@@ -12,6 +12,6 @@ public class CameraControll : MonoBehaviour {
         camera.transform.rotation = Quaternion.Euler(player.transform.rotation.eulerAngles.x, player.transform.rotation.eulerAngles.y, 0);
 	}
     float Middle(float a, float b) {
-        return b + ((a + b) / 2);
+        return (a + b) / 2 + b;
     }
 }

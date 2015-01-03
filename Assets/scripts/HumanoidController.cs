@@ -3,14 +3,14 @@ using System.Collections;
 using System;
 
 public class HumanoidController : MonoBehaviour {
-    public Transform headBone;
+	public Transform headBone;
     Animator anim;
     public bool walk;
     public bool sprint;
 
     public float minimum = 0F;
     public float maximum = 0F;
-
+	
     void Start() {
         anim = transform.GetComponent<Animator>();
     }
