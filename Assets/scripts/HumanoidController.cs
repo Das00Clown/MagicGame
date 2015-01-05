@@ -10,7 +10,9 @@ public class HumanoidController : MonoBehaviour {
 
     public float minimum = 0F;
     public float maximum = 0F;
-	
+
+
+
     void Start() {
         anim = transform.GetComponent<Animator>();
     }
